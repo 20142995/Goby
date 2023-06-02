@@ -5558,5 +5558,205 @@
         "name": "OpenSNS_RCE.json",
         "from": "https://github.com/hanc00l/pocGoby2Xray",
         "up_time": "2023-06-01 05:10:44"
+    },
+    "465626f5ffd33c92d2b540083c0fc479": {
+        "name": "Samsung_WLAN_AP_WEA453e_RCE.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "c22a7eded164de18b9b08b1073c24a48": {
+        "name": "DedeCMS_Carbuyaction_FileInclude.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "3e8c98edb79eb77daa6b45d8d70f03a3": {
+        "name": "fahuo100_sql_injection_CNVD_2021_30193.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "b1ae8cb2f529f5eee60bf5c30d1e2df0": {
+        "name": "360_Tianqing_database_information_disclosure.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "cac943f12f9ed2f205014ff87fbbc35b": {
+        "name": "VENGD_Arbitrary_File_Upload.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "4e566c87e02a8d2eae142e7f2c57e962": {
+        "name": "Discuz_Wechat_Plugins_Unauth.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "b69a1315894702869a7e904234655abf": {
+        "name": "H3C_IMC_RCE.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "434ec564211e33791d5e1961f1b3ebb8": {
+        "name": "SonarQube_unauth_CVE_2020_27986.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "5e17ce4d593835c34fc2ed48eb6ff481": {
+        "name": "IceWarp_WebClient_basic_RCE.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "30e31bbcb3e3a1c3e726c8712dc9a413": {
+        "name": "Jitong_EWEBS_phpinfo_leak.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "87adadd634cc919ad6b5e7b4842bb35e": {
+        "name": "Active_UC_index.action_RCE.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "33322c6293c00e0177f01ac3889dd0e9": {
+        "name": "Security_Devices_Hardcoded_Password.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "49963f2392dff43d6ba9478a39ef9b54": {
+        "name": "GitLab_SSRF_CVE_2021_22214.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "a95b89986a79c91a7f59d9d75ec942ac": {
+        "name": "VMWare_Operations_vRealize_Operations_Manager_API_SSRF_CVE_2021_21975.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "cae0710ea595f0910a36af1981e6e296": {
+        "name": "Discuz_RCE_WOOYUN_2010_080723.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "536988b739b6d41934e36855a7f359ee": {
+        "name": "Atlassian_Confluence_OGNL_injection_CVE_2021_26084.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "50b9e8e21d6f76d37b80f189ed8664d1": {
+        "name": "alibaba_canal_default_password.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "f05c778d0dec965304b0652b2ecadc46": {
+        "name": "IRDM4000_Smart_station_Unauthorized_access.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "e4a9fa38a80c8efb2728562e7f347ba5": {
+        "name": "Fastmeeting_Arbitrary_File_Read.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "87a7cd5e962fbfbaf8d239ba4471ba25": {
+        "name": "YAPI_RCE.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "b3c4ed50cda74c9f027bd85463dc5986": {
+        "name": "Consul_Rexec_RCE.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "ec3a00491923a14f6cb1d9d44c09c6ac": {
+        "name": "Apache_Airflow_Unauthorized.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "5b6f0bfa4927b535a749e3d7f76faca4": {
+        "name": "VMware_vCenter_v7.0.2_Arbitrary_File_Read.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "cd7c79c4a8f5954dfc9b94e5572cf7a8": {
+        "name": "Discuz_v72_SQLI.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "63e384aaef52dc2beac087d21740d2ea": {
+        "name": "FineReport_v9_Arbitrary_File_Overwrite.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "bdd6387e6ebfdc1d155e0d80a4afe068": {
+        "name": "Apache_Kylin_Unauthorized_configuration_disclosure.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "8f0b5dc58420ec1e6bf9d5eebb198546": {
+        "name": "360_TianQing_ccid_SQL_injectable.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "534f7819797de150b1c0411dd4a2c869": {
+        "name": "Datang_AC_Default_Password.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "12dc028570c676ed6304d2b56f219c1e": {
+        "name": "Docker_Registry_API_Unauth.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "63e7fcd14c98d13658565ac3aa5126f0": {
+        "name": "Konga_Default_JWT_KEY.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "79733cc4aef1d73f095647ddd6902224": {
+        "name": "Aspcms_Backend_Leak.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "9ab5251e9bd107631260838907f894be": {
+        "name": "ClickHouse_SQLI.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "eccacf2cea1bb6a40088b1f9e43fe595": {
+        "name": "Apache_Kylin_Console_Default_password.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "0b8fcbde235a2adad1aff3dc1080467e": {
+        "name": "Weaver_OA_8_SQL_injection.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "e646ceb6b2a9ec480bbd4623d4325f32": {
+        "name": "Lanproxy_Directory_traversal_CVE_2021_3019.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "4181aeaee11b9ea93856a49a8e0159be": {
+        "name": "Cacti_Weathermap_File_Write.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "9d9add12c6a10caa7b95737ddc272dad": {
+        "name": "Alibaba_Nacos_Add_user_not_authorized.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "2f341afe61cba3b5b2104d60e41083b2": {
+        "name": "RuoYi_Druid_Unauthorized_access.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "b5a392b27a98471d7a85fceb83f8c2bb": {
+        "name": "Alibaba_Nacos_Default_password.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
+    },
+    "c11dc72c6b76260ea064ec6d065c2c4e": {
+        "name": "OpenSNS_RCE.json",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-06-02 05:10:01"
     }
 }
