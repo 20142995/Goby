@@ -21,6 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install requests
+        pip install pyzipper
     - name: goby
       env: 
          GH_TOKEN: ${{ secrets.GH_TOKEN }}

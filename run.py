@@ -10,6 +10,8 @@ import shutil
 import hashlib
 import re
 import json
+import pyzipper
+import secrets
 
 requests.packages.urllib3.disable_warnings()
 
@@ -122,6 +124,23 @@ def _md5(file):
     with open(file,'rb') as f:
         s = re.sub('\s+','',f.read().decode('utf8',errors='ignore'))
         return hashlib.md5(s.encode('utf8')).hexdigest()
+    
+def make_zip_v3(source_dir, output_filename,password):
+    with pyzipper.AESZipFile(output_filename,'w',compression=pyzipper.ZIP_LZMA) as zf:
+        zf.setpassword(password)
+        zf.setencryption(pyzipper.WZ_AES, nbits=128)
+        for path, _, filenames in os.walk(source_dir):
+            fpath = path.replace(source_dir, '')
+            for filename in filenames:
+                zf.write(os.path.join(path, filename),os.path.join(fpath, filename))
+    try:
+        shutil.rmtree(source_dir)
+    except:
+        pass
+def generate_random_32bit_hash():
+    random_string = secrets.token_hex(16)
+    md5_hash = hashlib.md5(random_string.encode()).hexdigest()
+    return md5_hash
 
 def parse(x, y):
     s = ''
@@ -195,9 +214,11 @@ if __name__ == '__main__':
                             content = f.read()
                         if 'GobyQuery' in content and 'ScanSteps' in content:
                             md5 = _md5(file_path)
+                            if not os.path.exists(os.path.join(root_path, 'poc')):
+                                os.makedirs(os.path.join(root_path, 'poc'))
+                            shutil.copyfile(file_path, os.path.join(root_path, 'poc', file))
                             if md5 not in data:
-                                # shutil.copyfile(file_path, os.path.join(
-                                #    root_path, 'poc', file))
+
                                 data[md5] = {'name': file, 'from': url, "up_time": time.strftime(
                                     "%Y-%m-%d %H:%M:%S")}
                     except:
@@ -205,15 +226,6 @@ if __name__ == '__main__':
         except:
             traceback.print_exc()
     os.chdir(root_path)
-    # 清理无效data
-    # md5s = []
-    # for file in os.listdir(os.path.join(root_path, 'poc')):
-    #     if not file.endswith('.go') and not file.endswith('.json'):
-    #         continue
-    #     md5 = _md5(os.path.join(root_path, 'poc', file))
-    #     md5s.append(md5)
-    # for md5 in [md5 for md5 in data.keys() if md5 not in md5s]:
-    #     del data[md5]
     # 写入README.md
     readme_md = '## goby poc (共{}个) 最近一次检查时间 {}\n'.format(
         len(data.keys()), time.strftime("%Y-%m-%d %H:%M:%S"))
@@ -227,3 +239,7 @@ if __name__ == '__main__':
     # 写入data
     with open(data_file, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
+    # p
+    password = generate_random_32bit_hash()
+    print(password)
+    make_zip_v3('poc', 'poc.zip',password.encode('utf8'))
