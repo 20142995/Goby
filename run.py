@@ -241,5 +241,6 @@ if __name__ == '__main__':
         json.dump(data, f, ensure_ascii=False, indent=4)
     # p
     password = generate_random_32bit_hash()
+    password = 'P@55w0rd'
     print(password)
     make_zip_v3('poc', 'poc.zip',password.encode('utf8'))
