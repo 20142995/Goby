@@ -217,6 +217,7 @@ if __name__ == '__main__':
                             if not os.path.exists(os.path.join(root_path, 'poc')):
                                 os.makedirs(os.path.join(root_path, 'poc'))
                             shutil.copyfile(file_path, os.path.join(root_path, 'poc', file))
+                            print(file)
                             if md5 not in data:
 
                                 data[md5] = {'name': file, 'from': url, "up_time": time.strftime(
